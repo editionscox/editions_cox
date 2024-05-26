@@ -25,26 +25,13 @@
 </header>
 <body>
     <div class="container">
-        <form action="action_page.php">
+        <form action="/feedback_form.php" method="post">
       
           <label for="fname">Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          <input type="text" id="fname" name="name" placeholder="Your name..">
       
-          <label for="lname">Email</label>
-          <input type="text" id="lname" name="lastname" placeholder="Email address..">
-      
-          <label for="country">Country</label>
-          <select id="country" name="country">
-            <option value="australia">Australia</option>
-            <option value="usa">Austria</option>
-            <option value="canada">Canada</option>
-            <option value="usa">France</option>
-            <option value="usa">Germany</option>
-            <option value="usa">Italy</option>
-            <option value="usa">Switzerland</option>
-            <option value="usa">UK</option>
-            <option value="usa">USA</option>
-          </select>
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" placeholder="Email address..">
       
           <label for="subject">Subject</label>
           <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
